@@ -11,3 +11,12 @@ test('creates a health potion object', () => {
     expect(potion.value).toEqual(expect.any(Number)); // AND A VALUE PROPERTIES THAT IS A NUMBER OF SOME KIND 
     //                          EXPECT.ANY TAKES IN A CONSTRUCTOR WITH THE NAME NUMBER as its argument 
 })
+
+test("creates a random potion object", () => {
+    const potion = new Potion();
+
+    expect(potion.name).toEqual(expect.any(String));
+    expect(potion.name.length).toBeGreaterThan(0);
+    expect(potion.value).toEqual(expect.any(Number));
+
+})
