@@ -1,0 +1,22 @@
+{
+  "name": "jest-another-rpg-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imjord/jest-another-RPG-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imjord/jest-another-RPG-01/issues"
+  },
+  "homepage": "https://github.com/imjord/jest-another-RPG-01#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
